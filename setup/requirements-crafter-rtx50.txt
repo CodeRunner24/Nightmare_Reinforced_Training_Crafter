@@ -1,0 +1,21 @@
+# Crafter-only environment for Linux/WSL2 and RTX 50-series.
+# Upstream requirements.txt is preserved. CUDA 12.8 wheels support Blackwell.
+jax[cuda12]==0.6.2
+numpy==1.26.4
+chex
+colored_traceback
+einops
+elements>=3.19.1
+google-resumable-media>=2.7.2
+granular>=0.20.3
+ipdb
+jaxtyping
+ninjax>=3.5.1
+optax
+portal>=3.5.0
+scope>=0.4.4
+tqdm
+av
+crafter==1.8.3
+pygame
+setuptools<81

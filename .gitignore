@@ -1,0 +1,14 @@
+.pytest_cache
+dist
+__pycache__/
+*.py[cod]
+*.egg-info
+MUJOCO_LOG.TXT
+
+# Local experiment outputs can be very large. Keep curated summaries only.
+logs/crafter_*/
+logs/batch_comparison/*.csv
+logs/batch_comparison/*.json
+logs/batch_comparison/*.png
+logs/batch_comparison/REPORT_TR.md
+;
