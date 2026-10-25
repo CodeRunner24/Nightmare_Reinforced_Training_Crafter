@@ -22,6 +22,8 @@ replay capacity, real-environment budget, or imagination budget.
 This is a method-enhancement project, not a new DreamerV3 implementation.
 The contribution is the selection of imagination start states.
 
+![Nightmare Training overview](docs/nightmare_training_overview.png)
+
 ## Research question
 
 Can targeted imagination from dangerous states help DreamerV3 achieve a
